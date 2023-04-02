@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main>
+      <div class="main-card">
+        <div class="ctnr ctnr-1">
+          <img class="hero-img" src="images/drawers.jpg" alt="green drawers" />
+        </div>
+        <div class="ctnr ctnr-2">
+          <h1 class="article-title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="article-description">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="card-footer">
+            <div class="author-info">
+              <img
+                class="author-img"
+                src="images/avatar-michelle.jpg"
+                alt="image of michelle"
+              />
+              <div class="name-date">
+                <p class="author-name">Michelle Appleton</p>
+                <time class="publish-date" datetime="2010-06-28"
+                  >28 Jun 2020</time
+                >
+              </div>
+            </div>
+            <div class="share-options-card" id="floater">
+              <p>Share</p>
+              <div class="share-icons-ctnr">
+                <a href="#">
+                  <img
+                    class="social-icons"
+                    src="images/icon-facebook.svg"
+                    alt="fb-icon"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    class="social-icons"
+                    src="images/icon-twitter.svg"
+                    alt="twitter-icon"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    class="social-icons"
+                    src="images/icon-pinterest.svg"
+                    alt="pinterest-icon"
+                  />
+                </a>
+              </div>
+            </div>
+            <button class="share-btn" id="share-btn">
+              <img
+                id="share-btn-icon"
+                class="share-btn-icon"
+                src="images/icon-share.svg"
+                alt="share icon"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
